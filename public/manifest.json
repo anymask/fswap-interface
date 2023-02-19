@@ -1,6 +1,6 @@
 {
-  "short_name": "FSwap",
-  "name": "FSwap",
+  "short_name": "Swap",
+  "name": "Swap",
   "icons": [
     {
       "src": "./favicon.svg?version=1",
@@ -13,7 +13,7 @@
   "background_color": "#fff",
   "homepage_url": "https://swap.financiyo.com",
   "providedBy": {
-    "name": "FSwap",
+    "name": "Swap",
     "url": "https://swap.financiyo.com"
   },
   "start_url": ".",

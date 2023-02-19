@@ -1,6 +1,6 @@
 {
-  "name": "@kyberswap/interface",
-  "description": "KyberSwap Interface",
+  "name": "@swap/interface",
+  "description": "Swap Interface",
   "private": true,
   "homepage": "/",
   "license": "GPL-3.0-or-later",
