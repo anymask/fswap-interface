@@ -1,6 +1,6 @@
 {
-  "name": "@swap/interface",
-  "description": "Swap Interface",
+  "name": "@financiyo/interface",
+  "description": "FISwap Interface",
   "private": true,
   "homepage": "/",
   "license": "GPL-3.0-or-later",
