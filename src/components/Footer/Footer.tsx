@@ -10,7 +10,7 @@ import PoweredByIconDark from 'components/Icons/PoweredByIconDark'
 import PoweredByIconLight from 'components/Icons/PoweredByIconLight'
 import TwitterIcon from 'components/Icons/TwitterIcon'
 import InfoHelper from 'components/InfoHelper'
-import { KYBER_NETWORK_DISCORD_URL, KYBER_NETWORK_TWITTER_URL } from 'constants/index'
+import { FINANCIYO_NETWORK_DISCORD_URL, FINANCIYO_NETWORK_TWITTER_URL } from 'constants/index'
 import useTheme from 'hooks/useTheme'
 import { useIsDarkMode } from 'state/user/hooks'
 import { ExternalLink, ExternalLinkNoLineHeight } from 'theme'
@@ -84,7 +84,7 @@ export const FooterSocialLink = () => {
   const theme = useTheme()
   return (
     <Flex alignItems="center" justifyContent="center" sx={{ gap: '24px' }}>
-      <ExternalLinkNoLineHeight href="https://t.me/kybernetwork">
+      <ExternalLinkNoLineHeight href="https://t.me/FINANCIYO">
         <Telegram size={16} color={theme.subText} />
       </ExternalLinkNoLineHeight>
       <ExternalLinkNoLineHeight href={KYBER_NETWORK_TWITTER_URL}>
@@ -112,7 +112,7 @@ function Footer() {
             <Text marginRight="6px">
               <Trans>Powered By</Trans>
             </Text>
-            <ExternalLink href="https://kyber.network" style={{ display: 'flex' }}>
+            <ExternalLink href="https://financiyo.net" style={{ display: 'flex' }}>
               {isDarkMode ? <PoweredByIconDark width={48} /> : <PoweredByIconLight width={48} />}
             </ExternalLink>
           </Item>
